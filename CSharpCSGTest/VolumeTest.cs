@@ -9,7 +9,7 @@ namespace CCSGTest
     [TestClass]
     public class VolumeTest
     {
-        private const double EPSILON = 1e-16;
+        private const double EPSILON = 1e-10;
 
         [TestMethod]
         public void TestVolume()
